@@ -5,6 +5,7 @@ console.log(null >= 0);  //true  (comparison convert null to 0 i.e 0 >= 0 gives 
 console.log(undefined == 0);  //false
 console.log(undefined > 0);  //false
 console.log(undefined < 0);  //false
+console.log(undefined >= 0); //false
 
 // === 
 
