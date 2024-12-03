@@ -17,10 +17,10 @@ const JsUser = {
     lastLoginDays: ["Monday", "Saturday"]
 }
 
-// console.log(JsUser.email)
-// console.log(JsUser["email"])
-// console.log(JsUser["full name"])
-// console.log(JsUser[mySym])  //mykey1 will be printed but we have used a symbol here
+console.log(JsUser.email)
+console.log(JsUser["email"])
+console.log(JsUser["full name"])
+console.log(JsUser[mySym])  //mykey1 will be printed but we have used a symbol here
 
 
 JsUser.email = "hitesh@chatgpt.com"

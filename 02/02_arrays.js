@@ -23,12 +23,12 @@ console.log(allHeros);  //[ 'thor', 'Ironman', 'spiderman', 'superman', 'flash',
 
 
 
-// console.log(Array.isArray("Hitesh"))
-// console.log(Array.from("Hitesh"))
-// console.log(Array.from({name: "hitesh"})) // interesting
+// console.log(Array.isArray("Hitesh")) //false
+// console.log(Array.from("Hitesh"))  //[ 'H', 'i', 't', 'e', 's', 'h' ]
+// console.log(Array.from({name: "hitesh"})) // interesting -> [] we have to explicitly tell key ya val se array bnana h
 
-// let score1 = 100
-// let score2 = 200
-// let score3 = 300
+let score1 = 100
+let score2 = 200
+let score3 = 300
 
-// console.log(Array.of(score1, score2, score3));
+console.log(Array.of(score1, score2, score3));  //[ 100, 200, 300 ]
